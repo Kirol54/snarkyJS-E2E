@@ -19,7 +19,7 @@
     "coverage": "node --experimental-vm-modules --experimental-wasm-threads node_modules/jest/bin/jest.js --coverage",
     "format": "prettier --write --ignore-unknown **/*",
     "prepare": "husky install",
-    "test": "node --experimental-vm-modules --experimental-wasm-threads node_modules/jest/bin/jest.js",
+    "test": "node --experimental-vm-modules --experimental-wasm-threads node_modules/jest/bin/jest.js --env",
     "testw": "node --experimental-vm-modules --experimental-wasm-threads node_modules/jest/bin/jest.js --watch",
     "lint": "npx eslint src/* --fix"
   },
@@ -38,13 +38,13 @@
     "eslint": "^8.7.0",
     "eslint-plugin-snarkyjs": "^0.1.0",
     "husky": "^7.0.1",
-    "jest": "^27.3.1",
+    "jest": "^27.5.1",
     "lint-staged": "^11.0.1",
     "prettier": "^2.3.2",
-    "ts-jest": "^27.0.7",
+    "ts-jest": "^27.1.5",
     "typescript": "^4.7.2"
   },
   "peerDependencies": {
-    "snarkyjs": "0.9.*"
+    "snarkyjs": "0.9.8"
   }
 }

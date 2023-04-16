@@ -1,4 +1,10 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "test": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/test.json",
+      "fee": "0.2"
+    }
+  }
 }
