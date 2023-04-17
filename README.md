@@ -33,7 +33,8 @@ The test are called with `itLocal`
 
 ## Estimate time needed to run the tests
 
-- Mina Berkeley: 3h 8min (latest run)
+- Mina Berkeley: 4 hours, 30 minutes (16204.498 s)
+  - waiting for blocks takes a lot of time, couldn't find better way
 
 Ryzen 9
 

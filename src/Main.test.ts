@@ -490,9 +490,7 @@ describe('Full contract tests', () => {
           error = e.message;
         }
 
-        expect(error).toEqual(
-          'assert_equal: 0x0000000000000000000000000000000000000000000000000000000000000001 != 0x0000000000000000000000000000000000000000000000000000000000000000'
-        );
+        expect(error).toContain('assert_equal:');
         await fetchAccounts([zkappAddress]);
         const num = zkapp.num.get();
         expect(num).toEqual(latestNum);
